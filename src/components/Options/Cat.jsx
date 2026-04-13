@@ -20,7 +20,7 @@ const Cat = ({ refresh }) => {
       <Loader z={z} disp={disp} />
       <img
         src={content[0].url}
-        alt="Doggy unavaible, try a new one."
+        alt="Kitty unavaible, try a new one."
         className="max-h-100/100  lg:h-[60vh] max-w-100/100  box-border border-4 border-black rounded-xl z-1 "
       />
     </div>
