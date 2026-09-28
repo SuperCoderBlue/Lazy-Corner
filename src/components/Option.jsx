@@ -12,9 +12,9 @@ const Option = ({ btnText, btnText2, children }) => {
       {/* Button that opens the modal */}
       <button
         onClick={() => setDisplay("block")}
-        className="w-45/100 sm:w-25/100 text-base cursor-pointer font-serif bg-sky-950 text-sky-400 border border-sky-400 font-medium overflow-hidden relative px-5 py-2.5 rounded-lg hover:brightness-150 active:opacity-75 active:outline active:outline-solid active:outline-black duration-300 group"
+        className="w-45/100 sm:w-33/100 text-base cursor-pointer font-serif bg-sky-950 text-sky-400 border border-sky-400 font-medium overflow-hidden relative px-5 py-2.5 rounded-lg hover:brightness-150 active:opacity-75 active:outline active:outline-solid active:outline-black duration-300 group"
       >
-        <span className="bg-sky-400 shadow-sky-400 absolute -top-[150%] left-0 inline-flex w-80 h-1.25 rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+        <span className="bg-sky-400 shadow-sky-400 absolute top-[150%] left-0 inline-flex w-80 h-1.25 rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
         {btnText}
       </button>
 

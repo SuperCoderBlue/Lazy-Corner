@@ -6,7 +6,6 @@ import Option from "../components/Option"; // Reusable modal + button design for
 // Content components for each option
 import Joke from "../components/Options/Joke";
 import Dog from "../components/Options/Dog";
-import Food from "../components/Options/Food";
 import Fact from "../components/Options/Fact";
 import Cat from "../components/Options/Cat";
 import Quote from "../components/Options/Quote";
@@ -18,7 +17,6 @@ import Wonder from "../components/Options/Wonder";
 const components = {
   Joke,
   Dog,
-  Food,
   Fact,
   Cat,
   Quote,

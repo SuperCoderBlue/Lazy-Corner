@@ -12,12 +12,6 @@ const componentsData = [
     btnText2: "New Dog",
   },
   {
-    id: "3",
-    btnText: "Yum Yum",
-    Component: "Food",
-    btnText2: "New Food",
-  },
-  {
     id: "4",
     btnText: "Useless Facts",
     Component: "Fact",
@@ -52,7 +46,7 @@ const componentsData = [
     btnText: "Wonder",
     Component: "Wonder",
     btnText2: "New Wonder",
-  }
+  },
 ];
 
 export default componentsData;
